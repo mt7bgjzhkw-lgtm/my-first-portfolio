@@ -1,34 +1,93 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي الشخصي - علوم حاسب</title>
     <style>
-      body {
-        font-family: Tahoma, sans-serif;
-        background-color: #f4f7f6;
-        color: #333;
-        text-aling: center;
-        padding: 50px;
-      }
-      .card {
-        background:white;
-        padding: 30px;
-        border-radius: 15px;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        max-width: 500px;
-        margin: auto;
-      }
-      h1 { color: #2c3e50; }
-      p {color: #7f8c8d; line-height: 1.6; }
+        body {
+            font-family: Tahoma, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            text-align: center;
+            padding: 40px 20px;
+            margin: 0;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            max-width: 600px;
+            margin: auto;
+        }
+        h1 { color: #2c3e50; margin-bottom: 10px; }
+        h2 { color: #34495e; font-size: 1.2rem; border-bottom: 2px solid #ecf0f1; padding-bottom: 8px; margin-top: 30px; }
+        p { color: #7f8c8d; line-height: 1.6; }
+        .skills {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+        .tag {
+            background-color: #e8f4f8;
+            color: #2980b9;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+        .projects-box {
+            background: #fafbfc;
+            border: 1px dashed #bdc3c7;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 15px;
+            text-align: right;
+        }
+        .btn-container {
+            margin-top: 30px;
+        }
+        .btn {
+            background-color: #24292e;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 0.95rem;
+            display: inline-block;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background-color: #444d56;
+        }
     </style>
-  </head>
-  <body>
+</head>
+<body>
+
     <div class="card">
-      <h1>مرحباً بك في موقعي!</h1>
-      <p>انا طالبة علوم حاسب أخطو خطواتي الأولى في عالم البرمجة وتطوير الويب.</p>
-      <p><strong>مهاراتي الحالية:</strong> python, java, sql</p>
-      <p>ترقبو المزيد من المشاريع علىgithub!</p>
+        <h1>مرحباً، أنا بتول! 👩‍💻</h1>
+        <p>طالبة علوم حاسب أخطو خطواتي الأولى والثابتة في عالم البرمجة وتطوير الويب وقواعد البيانات.</p>
+        
+        <h2>المهارات التقنية</h2>
+        <div class="skills">
+            <span class="tag">Python</span>
+            <span class="tag">Java</span>
+            <span class="tag">SQL</span>
+            <span class="tag">HTML & CSS</span>
+        </div>
+
+        <h2>مشاريعي القادمة</h2>
+        <div class="projects-box">
+            <p style="margin: 0; color: #555;">🚀 قريباً سيتم إضافة مشاريع بايثون وجافا هنا، تابعوني!</p>
+        </div>
+
+        <div class="btn-container">
+            <a href="https://github.com/mt7bgjzhkw-lgtm" target="_blank" class="btn">زيارة حسابي على GitHub</a>
+        </div>
     </div>
-  </body>
+
+</body>
 </html>
